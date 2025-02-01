@@ -5,11 +5,13 @@ There is a lot of buzz around LLMs and their capabilities for reasoning. We see 
 
 While this is impressive - and useful to some extent - it's also clear that most LLMs still lack some basic reasoning skills.
 
-My go-to example to demonstrate this is to have an LLM try to play a game of Digitmind, which is a variant of Mastermind but instead of colors, it uses digits.
+My go-to example to demonstrate this is to have an LLM try to play a game of **Digitmind**, which is a variant of **Mastermind** but instead of colors, it uses digits.
 
-This is as basic as it gets, but it's still a good example to demonstrate the reasoning skills of LLMs.
+For reference, I implemented this game in Python in the [digitmind-in-python](https://github.com/computerguided/digitmind-python) repository.
 
-For example, if the code is "0931" and the guess is "1234", the score is "Correct position: 1, Wrong position: 1".
+Using Digitmind is as basic reasoning as it gets, but it's still a good example to demonstrate the reasoning skills of LLMs.
+
+The prompt is given in the file [`prompt.md`](prompt.md), which is read and presented to the LLM at the start of each game.
 
 ## Installation
 
@@ -37,7 +39,14 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+4. Specify the API key
 
+You need to specify the API key for the LLM you want to use. This can be done by creating an `.env` file in the root directory with the following content:
+
+```
+OPENAI_API_KEY=<your_api_key>
+OPENAI_BASE_URL=https://api.openai.com/v1
+```
 
 
 

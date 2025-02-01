@@ -1,0 +1,6 @@
+model,code,guesses,optimal_guesses,certainty_errors,reasoning_time,format_errors,input_tokens,reasoning_tokens,output_tokens
+o3-mini,7604,5,4,1,225,0,2750,34560,70
+o3-mini,5974,7,3,1,433,0,4004,66944,100
+o3-mini,5943,6,5,0,225,0,3366,36160,83
+o3-mini,1823,7,5,1,197,0,4004,29760,95
+o3-mini,5897,5,5,1,154,0,2750,21824,70

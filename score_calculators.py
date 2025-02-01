@@ -36,17 +36,6 @@ def get_guess_from_string(guess_string : str) -> list:
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
-class Round:
-    def __init__(self):
-        self.num_guesses = 0
-        self.num_format_errors = 0
-        self.num_suboptimal_guesses = 0
-        self.num_certainty_errors = 0
-        self.total_reasoning_time = 0
-        self.average_reasoning_time = 0
-        self.guessed_correctly = False
-
-# -----------------------------------------------------------------------------
 class Score:
     def __init__(self , correct_position : int = 0, wrong_position : int = 0):
         self.correct_position = correct_position
