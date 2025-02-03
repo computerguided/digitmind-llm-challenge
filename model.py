@@ -49,6 +49,11 @@ class Model:
                 model=model_name,
                 messages=messages,
             )
+
+            # DEBUG
+            print(completion)
+            #
+
             # Get response duration in rounded seconds
             response_duration = round((datetime.now() - current_time).total_seconds())
 
@@ -56,17 +61,22 @@ class Model:
             completion_tokens = completion.usage.completion_tokens
 
             # Check if 'completion_tokens_details' and 'reasoning_tokens' attributes exist
-            if hasattr(completion.usage, 'completion_tokens_details') and \
-                hasattr(completion.usage.completion_tokens_details, 'reasoning_tokens'):
-                reasoning_tokens = completion.usage.completion_tokens_details.reasoning_tokens
-            else:
-                reasoning_tokens = 0  # Default to 0 if attribute does not exist
+            reasoning_tokens = 0
+            if hasattr(completion, 'usage'):
+                if hasattr(completion.usage, 'completion_tokens_details'):
+                    if hasattr(completion.usage.completion_tokens_details, 'reasoning_tokens'):
+                        reasoning_tokens = completion.usage.completion_tokens_details.reasoning_tokens
 
         except Exception as e:
             print(f"ERROR: Failed to generate response from model: {e}")
             return None
+        
+        if hasattr(completion, 'choices'):
+            content = completion.choices[0].message.content
+        else:
+            content = completion
 
-        return Response(content=completion.choices[0].message.content,
+        return Response(content=content,
                         reasoning_time=response_duration,
                         input_tokens=input_tokens,
                         reasoning_tokens=reasoning_tokens,

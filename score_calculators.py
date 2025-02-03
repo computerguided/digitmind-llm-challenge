@@ -1,3 +1,6 @@
+# -----------------------------------------------------------------------------
+# -- Functions --
+# -----------------------------------------------------------------------------
 
 def create_combinations() -> list:
     digits = list(range(10))
@@ -10,14 +13,22 @@ def create_combinations() -> list:
         and x not in (y,z)      \
         and y != z ]
 
+# -----------------------------------------------------------------------------
+def get_code_as_string(code : list) -> str:
+    return ''.join(str(digit) for digit in code)
+
+# -----------------------------------------------------------------------------
 def format_error(guess_string : str) -> str:
     digit_chars = [str(i) for i in range(10)]
+
     error_message = "Please make sure your guess is formatted correctly. "
     if len(guess_string) < 5:
         error_message += "Your guess is too short. It must be 5 characters long, e.g. `1234?`"
-    elif len(guess_string) > 5:
-        error_message += "Your guess is too long. It must be 5 characters long, e.g. `1234?`"
-    elif guess_string[4] not in ('!', '?'):
+    else:
+        # Get the last 5 characters
+        guess_string = guess_string[-5:]
+
+    if guess_string[4] not in ('!', '?'):
         error_message += "Your guess does not end with `!` or `?`, e.g. `1234?` or `1234!`"
     elif not all(c in digit_chars for c in guess_string[:4]) \
         or len(set(guess_string[:4])) != 4:
