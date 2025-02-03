@@ -36,11 +36,25 @@ The histogram below shows the number of guesses per game for the two models.
 
 ## Conclusion
 
-The o3-mini model is clearly better than the o1 model. It is faster, more optimal, and makes fewer mistakes.
+On all parameters, the o3-mini model seems to be better than the o1 model: it is faster, more optimal, and makes fewer mistakes.
 
 The o3-model won 4 times more games than the o1-model. The 4 games the o1 model lost, were all games in which the o1 model took 8 or 9 guesses.
 
 
+| Code | First try | Second try |
+| :--- | :---: | :---: |
+| 7960 | 9 | 5 |
+| 3796 | 8 | 8 |
+| 8249 | 8 | 7 |
+| 2953 | 8 | 6 |
+
+
+
+
+o1,7960,5,4,0,193,0,2750,25920,81
+o1,3796,8,7,1,382,0,4664,52800,123
+o1,8249,7,7,1,3955,0,4004,55104,146
+o1,2953,6,4,0,291,0,3366,37888,83
 
 
 ## Other models

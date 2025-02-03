@@ -10,10 +10,10 @@ from game_result import *
 # Load environment variables
 # -----------------------------------------------------------------------------
 load_dotenv()
-# api_key = os.getenv('OPENAI_API_KEY')
-# base_url = os.getenv('OPENAI_BASE_URL')
-api_key = os.getenv('NVIDIA_API_KEY')
-base_url = os.getenv('NVIDIA_BASE_URL')
+api_key = os.getenv('OPENAI_API_KEY')
+base_url = os.getenv('OPENAI_BASE_URL')
+# api_key = os.getenv('NVIDIA_API_KEY')
+# base_url = os.getenv('NVIDIA_BASE_URL')
 
 # -----------------------------------------------------------------------------
 # List of models
@@ -29,7 +29,7 @@ model_names = \
 }
 
 # Select model
-model_index = 5 # Change this to select a different model
+model_index = 2 # Change this to select a different model
 model_name = model_names[model_index]
 
 # -----------------------------------------------------------------------------

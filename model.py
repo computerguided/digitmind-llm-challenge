@@ -50,10 +50,6 @@ class Model:
                 messages=messages,
             )
 
-            # DEBUG
-            print(completion)
-            #
-
             # Get response duration in rounded seconds
             response_duration = round((datetime.now() - current_time).total_seconds())
 
