@@ -24,6 +24,8 @@ guess_re = re.compile(r"- (\d+) -")
 guess_value_re = re.compile(r"Guess:\s*(\d+)[?!]")
 combinations_re = re.compile(r"Combinations left:\s*(\d+)")
 optimal_guess_re = re.compile(r"Optimal guess:\s*(yes|no)")
+correct_position_re = re.compile(r"Correct position:\s*(\d+)")
+wrong_position_re = re.compile(r"Wrong position:\s*(\d+)")
 
 # Parse the file
 for line in lines:
@@ -33,7 +35,9 @@ for line in lines:
     guess_value_match = guess_value_re.search(line)
     combinations_match = combinations_re.search(line)
     optimal_guess_match = optimal_guess_re.search(line)
-    
+    correct_position_match = correct_position_re.search(line)
+    wrong_position_match = wrong_position_re.search(line)
+
     if model_match:
         model = model_match.group(1)
     if code_match:
@@ -44,12 +48,16 @@ for line in lines:
         guess_value = guess_value_match.group(1)
     if optimal_guess_match:
         optimal_guess = optimal_guess_match.group(1)
+    if correct_position_match:
+        correct_position = correct_position_match.group(1)
+    if wrong_position_match:
+        wrong_position = wrong_position_match.group(1)
     if combinations_match:
         combinations_left = combinations_match.group(1)
-        data.append([model, code_to_break, guess_nr, guess_value, combinations_left, optimal_guess])
+        data.append([model, code_to_break, guess_nr, guess_value, combinations_left, optimal_guess, correct_position, wrong_position])
 
 # Convert to DataFrame and save as CSV
-df = pd.DataFrame(data, columns=["model", "code", "nr", "guess", "combinations_left", "optimal_guess"])
+df = pd.DataFrame(data, columns=["model", "code", "nr", "guess", "combinations_left", "optimal_guess", "correct_position", "wrong_position"])
 csv_path = "guesses.csv"
 df.to_csv(csv_path, index=False)
 

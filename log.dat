@@ -3049,3 +3049,1365 @@ Reasoning tokens:  21696
 Output tokens:     13
 
 Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 5483
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             5612?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 144
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1600
+Output tokens:     13
+
+- 3 -
+Guess:             5340?
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    13 seconds
+Input tokens:      1064
+Reasoning tokens:  2752
+Output tokens:     13
+
+- 4 -
+Guess:             5473?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    40 seconds
+Input tokens:      1086
+Reasoning tokens:  9152
+Output tokens:     14
+
+- 5 -
+Guess:             5483?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    19 seconds
+Input tokens:      1108
+Reasoning tokens:  4032
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 0268
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 480
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  192
+Output tokens:     14
+
+- 2 -
+Guess:             1567?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 42
+Reasoning time:    6 seconds
+Input tokens:      1042
+Reasoning tokens:  1344
+Output tokens:     13
+
+- 3 -
+Guess:             1089?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 24
+Reasoning time:    11 seconds
+Input tokens:      1064
+Reasoning tokens:  2368
+Output tokens:     13
+
+- 4 -
+Guess:             8260?
+Score:             Correct position: 2, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    31 seconds
+Input tokens:      1086
+Reasoning tokens:  6656
+Output tokens:     13
+
+- 5 -
+Guess:             0268!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    19 seconds
+Input tokens:      1108
+Reasoning tokens:  3264
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 1057
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 480
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             1567?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 21
+Reasoning time:    6 seconds
+Input tokens:      1042
+Reasoning tokens:  1216
+Output tokens:     13
+
+- 3 -
+Guess:             1578?
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    15 seconds
+Input tokens:      1064
+Reasoning tokens:  2944
+Output tokens:     13
+
+- 4 -
+Guess:             1057?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    35 seconds
+Input tokens:      1086
+Reasoning tokens:  7168
+Output tokens:     13
+
+Code broken in 4 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 7960
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 360
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     13
+
+- 2 -
+Guess:             5078?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 84
+Reasoning time:    4 seconds
+Input tokens:      1042
+Reasoning tokens:  576
+Output tokens:     13
+
+- 3 -
+Guess:             6759?
+Score:             Correct position: 0, Wrong position: 3
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 24
+Reasoning time:    11 seconds
+Input tokens:      1064
+Reasoning tokens:  2048
+Output tokens:     14
+
+- 4 -
+Guess:             0695?
+Score:             Correct position: 0, Wrong position: 3
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 3
+Reasoning time:    28 seconds
+Input tokens:      1086
+Reasoning tokens:  6272
+Output tokens:     15
+
+- 5 -
+Guess:             9586!
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    17 seconds
+Input tokens:      1108
+Reasoning tokens:  2560
+Output tokens:     13
+
+- 6 -
+Guess:             7960?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    22 seconds
+Input tokens:      1130
+Reasoning tokens:  4672
+Output tokens:     14
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 9872
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    5 seconds
+Input tokens:      1020
+Reasoning tokens:  192
+Output tokens:     13
+
+- 2 -
+Guess:             5167?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 378
+Reasoning time:    7 seconds
+Input tokens:      1042
+Reasoning tokens:  1024
+Output tokens:     13
+
+- 3 -
+Guess:             0819?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 122
+Reasoning time:    13 seconds
+Input tokens:      1064
+Reasoning tokens:  2496
+Output tokens:     13
+
+- 4 -
+Guess:             3609?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 22
+Reasoning time:    39 seconds
+Input tokens:      1086
+Reasoning tokens:  7424
+Output tokens:     13
+
+- 5 -
+Guess:             2895!
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    62 seconds
+Input tokens:      1108
+Reasoning tokens:  13568
+Output tokens:     13
+
+- 6 -
+Guess:             9872!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    33 seconds
+Input tokens:      1130
+Reasoning tokens:  6336
+Output tokens:     13
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 3796
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     13
+
+- 2 -
+Guess:             5071?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 378
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1472
+Output tokens:     13
+
+- 3 -
+Guess:             6189?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 216
+Reasoning time:    13 seconds
+Input tokens:      1064
+Reasoning tokens:  2496
+Output tokens:     14
+
+- 4 -
+Guess:             2608?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 41
+Reasoning time:    23 seconds
+Input tokens:      1086
+Reasoning tokens:  5568
+Output tokens:     14
+
+- 5 -
+Guess:             3956?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    58 seconds
+Input tokens:      1108
+Reasoning tokens:  11328
+Output tokens:     13
+
+- 6 -
+Guess:             3796!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    25 seconds
+Input tokens:      1130
+Reasoning tokens:  5312
+Output tokens:     16
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 4829
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     13
+
+- 2 -
+Guess:             5126?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 136
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1728
+Output tokens:     13
+
+- 3 -
+Guess:             5347?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 42
+Reasoning time:    26 seconds
+Input tokens:      1064
+Reasoning tokens:  4160
+Output tokens:     14
+
+- 4 -
+Guess:             8193?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 7
+Reasoning time:    37 seconds
+Input tokens:      1086
+Reasoning tokens:  8576
+Output tokens:     13
+
+- 5 -
+Guess:             3028?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    38 seconds
+Input tokens:      1108
+Reasoning tokens:  9408
+Output tokens:     13
+
+- 6 -
+Guess:             4829!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    80 seconds
+Input tokens:      1130
+Reasoning tokens:  17344
+Output tokens:     15
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 9761
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             5671?
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 83
+Reasoning time:    10 seconds
+Input tokens:      1042
+Reasoning tokens:  1664
+Output tokens:     13
+
+- 3 -
+Guess:             5186?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 27
+Reasoning time:    17 seconds
+Input tokens:      1064
+Reasoning tokens:  3776
+Output tokens:     15
+
+- 4 -
+Guess:             7625?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 6
+Reasoning time:    33 seconds
+Input tokens:      1086
+Reasoning tokens:  7168
+Output tokens:     14
+
+- 5 -
+Guess:             0751!
+Score:             Correct position: 2, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 2
+Reasoning time:    40 seconds
+Input tokens:      1108
+Reasoning tokens:  8320
+Output tokens:     13
+
+- 6 -
+Guess:             6791?
+Score:             Correct position: 2, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    43 seconds
+Input tokens:      1130
+Reasoning tokens:  9408
+Output tokens:     13
+
+- 7 -
+Guess:             9761!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    41 seconds
+Input tokens:      1152
+Reasoning tokens:  8448
+Output tokens:     14
+
+Code broken in 7 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 2386
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    5 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     13
+
+- 2 -
+Guess:             4156?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 136
+Reasoning time:    11 seconds
+Input tokens:      1042
+Reasoning tokens:  1600
+Output tokens:     13
+
+- 3 -
+Guess:             4378?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 28
+Reasoning time:    20 seconds
+Input tokens:      1064
+Reasoning tokens:  3200
+Output tokens:     13
+
+- 4 -
+Guess:             4903?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 6
+Reasoning time:    42 seconds
+Input tokens:      1086
+Reasoning tokens:  9216
+Output tokens:     13
+
+- 5 -
+Guess:             2357?
+Score:             Correct position: 2, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    105 seconds
+Input tokens:      1108
+Reasoning tokens:  22464
+Output tokens:     14
+
+- 6 -
+Guess:             2386!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    24 seconds
+Input tokens:      1130
+Reasoning tokens:  4608
+Output tokens:     13
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 5384
+--------------------------------
+
+- 1 -
+Guess:             0123?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             4056?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 369
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1536
+Output tokens:     13
+
+- 3 -
+Guess:             7408?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 87
+Reasoning time:    15 seconds
+Input tokens:      1064
+Reasoning tokens:  3008
+Output tokens:     13
+
+- 4 -
+Guess:             5970?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 11
+Reasoning time:    26 seconds
+Input tokens:      1086
+Reasoning tokens:  4672
+Output tokens:     13
+
+- 5 -
+Guess:             5841?
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    39 seconds
+Input tokens:      1108
+Reasoning tokens:  7424
+Output tokens:     14
+
+- 6 -
+Guess:             5284?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    37 seconds
+Input tokens:      1130
+Reasoning tokens:  8256
+Output tokens:     14
+
+- 7 -
+Guess:             5384!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    30 seconds
+Input tokens:      1152
+Reasoning tokens:  6144
+Output tokens:     13
+
+Code broken in 7 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 0725
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             5167?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 369
+Reasoning time:    9 seconds
+Input tokens:      1042
+Reasoning tokens:  1408
+Output tokens:     13
+
+- 3 -
+Guess:             0518?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 63
+Reasoning time:    13 seconds
+Input tokens:      1064
+Reasoning tokens:  2560
+Output tokens:     13
+
+- 4 -
+Guess:             0691?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 9
+Reasoning time:    27 seconds
+Input tokens:      1086
+Reasoning tokens:  6016
+Output tokens:     14
+
+- 5 -
+Guess:             0725?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    36 seconds
+Input tokens:      1108
+Reasoning tokens:  7808
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 8034
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 2, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 180
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  192
+Output tokens:     13
+
+- 2 -
+Guess:             1290?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 16
+Reasoning time:    6 seconds
+Input tokens:      1042
+Reasoning tokens:  1024
+Output tokens:     13
+
+- 3 -
+Guess:             0734?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    18 seconds
+Input tokens:      1064
+Reasoning tokens:  2624
+Output tokens:     13
+
+- 4 -
+Guess:             5034?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    41 seconds
+Input tokens:      1086
+Reasoning tokens:  6720
+Output tokens:     13
+
+- 5 -
+Guess:             8034!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    28 seconds
+Input tokens:      1108
+Reasoning tokens:  5056
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 4365
+--------------------------------
+
+- 1 -
+Guess:             0123?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1440
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             4560?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 31
+Reasoning time:    9 seconds
+Input tokens:      1042
+Reasoning tokens:  1856
+Output tokens:     13
+
+- 3 -
+Guess:             4750?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 12
+Reasoning time:    33 seconds
+Input tokens:      1064
+Reasoning tokens:  6720
+Output tokens:     15
+
+- 4 -
+Guess:             4265?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    32 seconds
+Input tokens:      1086
+Reasoning tokens:  7168
+Output tokens:     13
+
+- 5 -
+Guess:             4365!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    30 seconds
+Input tokens:      1108
+Reasoning tokens:  6464
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 6147
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  192
+Output tokens:     13
+
+- 2 -
+Guess:             9471?
+Score:             Correct position: 0, Wrong position: 3
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 64
+Reasoning time:    7 seconds
+Input tokens:      1042
+Reasoning tokens:  1152
+Output tokens:     13
+
+- 3 -
+Guess:             2917?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 18
+Reasoning time:    19 seconds
+Input tokens:      1064
+Reasoning tokens:  4416
+Output tokens:     14
+
+- 4 -
+Guess:             4019?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    33 seconds
+Input tokens:      1086
+Reasoning tokens:  6848
+Output tokens:     13
+
+- 5 -
+Guess:             6147?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    28 seconds
+Input tokens:      1108
+Reasoning tokens:  6336
+Output tokens:     13
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 5419
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  192
+Output tokens:     13
+
+- 2 -
+Guess:             2156?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 288
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1344
+Output tokens:     13
+
+- 3 -
+Guess:             3645?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 128
+Reasoning time:    17 seconds
+Input tokens:      1064
+Reasoning tokens:  3264
+Output tokens:     13
+
+- 4 -
+Guess:             7513?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 18
+Reasoning time:    21 seconds
+Input tokens:      1086
+Reasoning tokens:  4480
+Output tokens:     22
+
+- 5 -
+Guess:             5823?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    86 seconds
+Input tokens:      1108
+Reasoning tokens:  18304
+Output tokens:     16
+
+- 6 -
+Guess:             5410?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    20 seconds
+Input tokens:      1130
+Reasoning tokens:  4480
+Output tokens:     13
+
+- 7 -
+Guess:             5419!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    29 seconds
+Input tokens:      1152
+Reasoning tokens:  5760
+Output tokens:     13
+
+Code broken in 7 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 5493
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             5162?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 136
+Reasoning time:    11 seconds
+Input tokens:      1042
+Reasoning tokens:  1728
+Output tokens:     13
+
+- 3 -
+Guess:             5347?
+Score:             Correct position: 1, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 4
+Reasoning time:    29 seconds
+Input tokens:      1064
+Reasoning tokens:  4352
+Output tokens:     14
+
+- 4 -
+Guess:             5483?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    31 seconds
+Input tokens:      1086
+Reasoning tokens:  5760
+Output tokens:     15
+
+- 5 -
+Guess:             5403?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    33 seconds
+Input tokens:      1108
+Reasoning tokens:  7616
+Output tokens:     13
+
+- 6 -
+Guess:             5493!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    25 seconds
+Input tokens:      1130
+Reasoning tokens:  4480
+Output tokens:     14
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 8249
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 720
+Reasoning time:    3 seconds
+Input tokens:      1020
+Reasoning tokens:  256
+Output tokens:     13
+
+- 2 -
+Guess:             1456?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 180
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1408
+Output tokens:     14
+
+- 3 -
+Guess:             7218?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 34
+Reasoning time:    20 seconds
+Input tokens:      1064
+Reasoning tokens:  3136
+Output tokens:     13
+
+- 4 -
+Guess:             9201?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 11
+Reasoning time:    23 seconds
+Input tokens:      1086
+Reasoning tokens:  4992
+Output tokens:     13
+
+- 5 -
+Guess:             4270!
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    59 seconds
+Input tokens:      1108
+Reasoning tokens:  13888
+Output tokens:     13
+
+- 6 -
+Guess:             8249!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    76 seconds
+Input tokens:      1130
+Reasoning tokens:  15936
+Output tokens:     15
+
+Code broken in 6 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 2953
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     18
+
+- 2 -
+Guess:             2156?
+Score:             Correct position: 2, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 62
+Reasoning time:    8 seconds
+Input tokens:      1042
+Reasoning tokens:  1664
+Output tokens:     13
+
+- 3 -
+Guess:             2180?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 24
+Reasoning time:    15 seconds
+Input tokens:      1064
+Reasoning tokens:  2688
+Output tokens:     13
+
+- 4 -
+Guess:             2357?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 3
+Reasoning time:    21 seconds
+Input tokens:      1086
+Reasoning tokens:  4416
+Output tokens:     13
+
+- 5 -
+Guess:             2953?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    48 seconds
+Input tokens:      1108
+Reasoning tokens:  10240
+Output tokens:     14
+
+Code broken in 5 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 1307
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 720
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  64
+Output tokens:     13
+
+- 2 -
+Guess:             1350?
+Score:             Correct position: 2, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 17
+Reasoning time:    9 seconds
+Input tokens:      1042
+Reasoning tokens:  1664
+Output tokens:     13
+
+- 3 -
+Guess:             1307?
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1
+Reasoning time:    15 seconds
+Input tokens:      1064
+Reasoning tokens:  3264
+Output tokens:     13
+
+Code broken in 3 guesses.
+
+--------------------------------
+Model: o3-mini-v2
+Code to break: 0346
+--------------------------------
+
+- 1 -
+Guess:             1234?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    2 seconds
+Input tokens:      1020
+Reasoning tokens:  128
+Output tokens:     13
+
+- 2 -
+Guess:             2510?
+Score:             Correct position: 0, Wrong position: 1
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 312
+Reasoning time:    10 seconds
+Input tokens:      1042
+Reasoning tokens:  1472
+Output tokens:     13
+
+- 3 -
+Guess:             6173?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 69
+Reasoning time:    20 seconds
+Input tokens:      1064
+Reasoning tokens:  4160
+Output tokens:     21
+
+- 4 -
+Guess:             8391?
+Score:             Correct position: 1, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 10
+Reasoning time:    33 seconds
+Input tokens:      1086
+Reasoning tokens:  7232
+Output tokens:     15
+
+- 5 -
+Guess:             5346?
+Score:             Correct position: 3, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 2
+Reasoning time:    46 seconds
+Input tokens:      1108
+Reasoning tokens:  10048
+Output tokens:     14
+
+- 6 -
+Guess:             0346!
+Score:             Correct position: 4, Wrong position: 0
+Optimal guess:     yes
+Correct certainty: no
+Combinations left: 1
+Reasoning time:    40 seconds
+Input tokens:      1130
+Reasoning tokens:  9536
+Output tokens:     13
+
+Code broken in 6 guesses.
+

@@ -29,7 +29,7 @@ model_names = \
 }
 
 # Select model
-model_index = 2 # Change this to select a different model
+model_index = 3 # Change this to select a different model
 model_name = model_names[model_index]
 
 # -----------------------------------------------------------------------------
@@ -58,7 +58,7 @@ def do_game(model_name : str, code : list) -> GameResult:
     llm = model.Model(api_key=api_key, base_url=base_url)
 
     # -- Read and add prompt --
-    with open('prompt.md', 'r') as file:
+    with open('prompt_v2.md', 'r') as file:
         prompt = file.read()
     messages = []
     llm.add_user_message(messages, prompt)
