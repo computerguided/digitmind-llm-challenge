@@ -7,7 +7,7 @@
 # -----------------------------------------------------------------------------
 import random
 import sys
-from score_calculators import create_combinations, get_code_as_string
+from imp.score_calculators import create_combinations, get_code_as_string
 
 # -----------------------------------------------------------------------------
 # Retrieve the number of codes to generate from the second parameter of the 

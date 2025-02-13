@@ -1,6 +1,6 @@
 #imports
-from score_calculators import *
-from game_result import *
+from imp.score_calculators import *
+from imp.game_result import *
 import random
 
 # -----------------------------------------------------------------------------

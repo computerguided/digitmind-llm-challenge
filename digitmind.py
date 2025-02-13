@@ -1,10 +1,11 @@
 #imports
-from score_calculators import *
+from imp.score_calculators import *
+from imp.game_result import *
+
 import os
 import sys
 from dotenv import load_dotenv
-import model
-from game_result import *
+import imp.model as model
 
 # -----------------------------------------------------------------------------
 # Load environment variables
@@ -12,8 +13,6 @@ from game_result import *
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 base_url = os.getenv('OPENAI_BASE_URL')
-# api_key = os.getenv('NVIDIA_API_KEY')
-# base_url = os.getenv('NVIDIA_BASE_URL')
 
 # -----------------------------------------------------------------------------
 # List of models
@@ -24,8 +23,7 @@ model_names = \
     1: "o1-mini",
     2: "o1",
     3: "o3-mini",
-    4: "gpt-4o",
-    5: "deepseek-ai/deepseek-r1"
+    4: "gpt-4o"
 }
 
 # Select model
@@ -37,13 +35,13 @@ model_name = model_names[model_index]
 # -----------------------------------------------------------------------------
 def print_and_log(message : str):
     print(message)
-    with open('log.dat', 'a') as file:
+    with open('./logs/log.dat', 'a') as file:
         file.write(message + "\n")
 
 # -----------------------------------------------------------------------------
 # Game loop
 # -----------------------------------------------------------------------------
-def do_game(model_name : str, code : list) -> GameResult:
+def do_game(model_name : str, code : list, prompt : str) -> GameResult:
     score_calculator = ScoreCalculator()
 
     print_and_log("--------------------------------")
@@ -57,9 +55,6 @@ def do_game(model_name : str, code : list) -> GameResult:
     # -- Init model --
     llm = model.Model(api_key=api_key, base_url=base_url)
 
-    # -- Read and add prompt --
-    with open('prompt_v2.md', 'r') as file:
-        prompt = file.read()
     messages = []
     llm.add_user_message(messages, prompt)
 
@@ -135,25 +130,29 @@ print("\n---- Digitmind ----")
 # -----------------------------------------------------------------------------
 # Main loop
 # The following files are used:
-# - codes.dat: A file with codes to break.
-# - log.dat: A file to log the intermediate output (i.e. the guesses and scores).
-# - results.csv: A file to store the final game results.
-# - prompt.md: A file to read the prompt for the LLM.
+# - ./data/codes.dat: A file with codes to break.
+# - ./logs/log.dat: A file to log the intermediate output (i.e. the guesses and scores).
+# - ./logs/results.csv: A file to store the final game results.
+# - ./data/prompt_v2.md: A file to read the prompt for the LLM.
 # -----------------------------------------------------------------------------
 
 # Read the codes from the file
 codes = []
-with open('codes.dat', 'r') as file:
+with open('./data/codes.dat', 'r') as file:
     lines = file.readlines()
     for line in lines:
         code_string = line.strip()
         code = [int(digit) for digit in code_string]
         codes.append(code)
 
+# Read the prompt
+with open('./data/prompt_v2.md', 'r') as file:
+    prompt = file.read()
+
 # Do the game for each code
 for code in codes:
-    game_result = do_game(model_name, code)
+    game_result = do_game(model_name, code, prompt)
 
-    # Open a file to append the results
-    with open('results.csv', 'a') as file:
+    # Append the results
+    with open('./logs/results.csv', 'a') as file:
         file.write("\n" + game_result.to_csv_row())
