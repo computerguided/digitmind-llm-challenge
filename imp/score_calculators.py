@@ -2,16 +2,16 @@
 # -- Functions --
 # -----------------------------------------------------------------------------
 
-def create_combinations() -> set:
-    digits = set(range(10))
-    return {(w,x,y,z)           \
+def create_combinations() -> list:
+    digits = list(range(10))
+    return [[w,x,y,z]           \
         for w in digits         \
         for x in digits         \
         for y in digits         \
         for z in digits         \
         if  w not in (x,y,z)    \
         and x not in (y,z)      \
-        and y != z }
+        and y != z ]
 
 # -----------------------------------------------------------------------------
 def get_code_as_string(code : list) -> str:
