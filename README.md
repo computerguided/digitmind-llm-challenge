@@ -20,11 +20,6 @@ This study evaluates the reasoning skills of LLMs `o1` and `o3-mini` by having t
 
 ## Methodology
 
->- Detailed description of the experimental setup, theoretical framework, or computational models.
->- Explanation of materials, software, datasets, or equipment used.
->- Description of procedures and algorithms (if applicable).
->- Justification of choices (e.g., why a specific method was selected).
-
 ### Computational model
 
 Before being able to assess the performance of the reasoning LLMs in the context of the Digitmind Challenge, it is important to understand how the game Digitmind works and how the performance of an _optimal computer code breaker_ can be measured. To do this, the following needs to be understood:
@@ -264,10 +259,6 @@ Then the same 20 games were played again (i.e. the same codes were used again) u
 
 
 ## Results
-
->- Presentation of findings without interpretation.
->- Tables, graphs, and figures summarizing the data.
->- Statistical or numerical results where applicable.
 
 The complete spreadsheet with all the results can be found [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9cA0PTOcrUxEoXLn8tLnVTAOQo_rp2iUwqm4y6cVsyvZmt4wiEfnFBKVDizbMHmyIZOVqz9jXheUP/pubhtml#).
 
