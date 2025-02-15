@@ -4411,3 +4411,60 @@ Output tokens:     13
 
 Code broken in 6 guesses.
 
+--------------------------------
+Model: deepseek-reasoner
+Code to break: 5483
+--------------------------------
+
+- 1 -
+Guess:             1357?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 1260
+Reasoning time:    13 seconds
+Input tokens:      1030
+Reasoning tokens:  133
+Output tokens:     5
+
+- 2 -
+Guess:             2145?
+Score:             Correct position: 0, Wrong position: 2
+Optimal guess:     yes
+Correct certainty: yes
+Combinations left: 281
+Reasoning time:    92 seconds
+Input tokens:      1047
+Reasoning tokens:  2485
+Output tokens:     5
+
+- 3 -
+Guess:             3421?
+Score:             Correct position: 1, Wrong position: 1
+Optimal guess:     no
+Correct certainty: yes
+Combinations left: 44
+Reasoning time:    254 seconds
+Input tokens:      1064
+Reasoning tokens:  7146
+Output tokens:     6
+
+- 4 -
+Guess:             vely.
+Please make sure your guess is formatted correctly. Your guess does not end with `!` or `?`, e.g. `1234?` or `1234!` Please try again.
+- 4 -
+Guess:             2413?
+Score:             Correct position: 2, Wrong position: 0
+Optimal guess:     no
+Correct certainty: yes
+Combinations left: 8
+Reasoning time:    647 seconds
+Input tokens:      1126
+Reasoning tokens:  14996
+Output tokens:     367
+
+- 5 -
+ERROR: No response from model...
+- 5 -
+ERROR: No response from model...
+- 5 -

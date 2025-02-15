@@ -27,7 +27,7 @@ model_names = \
 }
 
 # Select model
-model_index = 3 # Change this to select a different model
+model_index = 5 # Change this to select a different model
 model_name = model_names[model_index]
 
 # -----------------------------------------------------------------------------
@@ -41,7 +41,7 @@ def print_and_log(message : str):
 # -----------------------------------------------------------------------------
 # Game loop
 # -----------------------------------------------------------------------------
-def do_game(model_name : str, code : list, prompt : str) -> GameResult:
+def do_game(llm : model.Model, code : list, prompt : str) -> GameResult:
     score_calculator = ScoreCalculator()
 
     print_and_log("--------------------------------")
@@ -51,9 +51,6 @@ def do_game(model_name : str, code : list, prompt : str) -> GameResult:
     print_and_log("--------------------------------\n")
 
     game_result = GameResult(model_name, code_as_string)
-
-    # -- Init model --
-    llm = model.Model(api_key=api_key, base_url=base_url)
 
     messages = []
     llm.add_user_message(messages, prompt)
@@ -67,7 +64,7 @@ def do_game(model_name : str, code : list, prompt : str) -> GameResult:
 
         print_and_log(f"- {number_of_guesses} -")
 
-        response = llm.generate_response(messages, model_name)
+        response = llm.generate_response(messages)
         if response is None:
             print_and_log("ERROR: No response from model...")
             number_of_guesses -= 1
@@ -149,9 +146,12 @@ with open('./data/codes.dat', 'r') as file:
 with open('./data/prompt_v2.md', 'r') as file:
     prompt = file.read()
 
+# Init model
+llm = model.Model(model_name, api_key, base_url)
+
 # Do the game for each code
 for code in codes:
-    game_result = do_game(model_name, code, prompt)
+    game_result = do_game(llm, code, prompt)
 
     # Append the results
     with open('./logs/results.csv', 'a') as file:

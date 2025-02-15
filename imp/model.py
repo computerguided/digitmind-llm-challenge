@@ -24,8 +24,8 @@ class Response:
 # -----------------------------------------------------------------------------
 class Model:
 
-    def __init__(self, api_key : str, base_url : str):
-        
+    def __init__(self, model_name : str, api_key : str, base_url : str):
+        self.model_name = model_name
         try:
             self.client = OpenAI(api_key=api_key, base_url=base_url)
         except Exception as e:
@@ -41,12 +41,12 @@ class Model:
             "content": message
         })
 
-    def generate_response(self, messages : list, model_name : str) -> Response|None:
+    def generate_response(self, messages : list) -> Response|None:
         # Get current time
         current_time = datetime.now()
         try:
             completion = self.client.chat.completions.create(
-                model=model_name,
+                model=self.model_name,
                 messages=messages,
             )
 

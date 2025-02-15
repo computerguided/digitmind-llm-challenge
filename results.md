@@ -1,4 +1,4 @@
-![Digitmind](img/digitmind_header.jpg)
+![](/img/results_header.png)
 
 ## Abstract
 
