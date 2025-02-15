@@ -80,6 +80,7 @@ class ScoreCalculator:
     def __init__(self):
         self.combinations_left = create_combinations()
         
+    # Determine the score of a guess by comparing the guess to the code.
     def determine_score(self, guess : list, code : list) -> dict:          
         pairwise = zip(guess, code)
         score = Score()            
@@ -87,11 +88,11 @@ class ScoreCalculator:
         score.wrong_position = len(set(guess).intersection(set(code))) - score.correct_position
         return score
     
+    # Process the guess and score to update the list of possible combinations
+    # by removing those combinations that are not consistent with the guess and score.
     def process_guess(self, guess : list, score : Score):
-        max_index = len(self.combinations_left)-1
-        for i, combination in enumerate(reversed(self.combinations_left)):
-            if score != self.determine_score(combination, guess):
-                del self.combinations_left[max_index-i]
+        self.combinations_left = [combination for combination in self.combinations_left if 
+                                  self.determine_score(combination, guess) == score]
 
     # Determine if the guess is optimal by checking
     # if it is part of the possible combinations left.
