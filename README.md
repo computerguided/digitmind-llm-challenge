@@ -14,7 +14,7 @@ To examine this, the game **Digitmind** is introduced, a variant of Mastermind w
 
 This study builds further on the work of the implementation of the game which can be found in the GitHub repository [digitmind-in-python](https://github.com/computerguided/digitmind-python).
 
-The game Digitmind requires a logical approach to narrowing down possibilities based on feedback from previous guesses. Unlike standard language-based reasoning tasks, Digitmind presents a structured problem where optimal strategies can be formally defined and evaluated.
+Digitmind requires a logical approach to narrowing down possibilities based on feedback from previous guesses. Unlike standard language-based reasoning tasks, Digitmind presents a structured problem where optimal strategies can be formally defined and evaluated.
 
 This study evaluates the reasoning skills of LLMs `o1` and `o3-mini` by having them play 20 games of Digitmind. Their performance is assessed based on the number of guesses, correctness of certainty markers (`!` or `?`), reasoning efficiency, and adherence to optimal guessing strategies. Additionally, it is analyzed whether prompt engineering can improve their performance, particularly in making optimal guesses.
 
@@ -22,7 +22,7 @@ This study evaluates the reasoning skills of LLMs `o1` and `o3-mini` by having t
 
 ### Computational model
 
-Before being able to assess the performance of the reasoning LLMs in the context of playing the Digitmind game, it is important to understand how the game works and how the performance of an _optimal computer code breaker_ can be measured. To do this, the following needs to be understood:
+Before assessing the reasoning performance of LLMs in Digitmind, it is essential to understand how the game works and how an _optimal computer code breaker_ performs. This requires examining the following aspects:
 
 - [Generating guesses](#generating-guesses): How the guesses are generated, i.e. chosen from the set of remaining possible combinations.
 - [Getting the score](#getting-the-score): How the score is calculated, i.e. how the guess is compared to the actual code to be broken - or more generally, how two combinations can be compared.
@@ -38,7 +38,7 @@ For this guess a _score_ is calculated by comparing it to the actual code to be 
 
 The score contains the number of digits in the _correct position_ and the number of digits in the _wrong position_.
 
-For example, if the actual code is '9024' and the guess is '1234', the score is: Correct position: 1, Wrong position: 1.
+For example, if the actual code is `9024` and the guess is `1234`, the score is then "Correct position: 1, Wrong position: 1."
 
 The score is then used to _process_ the list of possible combinations, removing all combinations that are _not consistent with the score_. This means that each combination in the list is compared with the guess and it is determined how many digits are in the same position and how many digits are in a different position. Only those combinations that match the score are kept.
 
@@ -231,7 +231,7 @@ The following parameters were used to compare the models:
 
 Considering that the o3-mini model turned out to be the best model, it is interesting to investigate if performance might be improved when the prompt is changed. The area where the reasoning of the model could be improved is obviously that it should not make suboptimal guesses.
 
-In the first version of the prompt, under the ["Strategy"](prompt.md#strategy) section it was only mentioned that:
+In the first version of the prompt, under the ["Strategy"](/data/prompt.md#strategy) section it was only mentioned that:
 
 >- Be sure to make _optimal_ guesses to minimize the number of guesses!
 >- A guess is considered _optimal_ when all previous guesses would give the same score if the guess would be the actual code.
@@ -307,9 +307,7 @@ The results of the previous version of the prompt in comparison with the results
 
 ## Conclusion
 
-The results clearly indicate that `o3-mini` outperforms `o1` across most parameters. Notably, prompt engineering led to substantial improvements in all areas, particularly in optimality and reasoning efficiency. The refined prompt guided `o3-mini` to achieve near-optimal performance, demonstrating the power of structured instructions in improving LLM reasoning.
-
-From the table it is clear that changing the prompt dramatically increased the performance across all parameters!
+The results clearly indicate that `o3-mini` outperforms `o1` across most parameters. Notably, prompt engineering led to substantial improvements in all areas, particularly in optimality and reasoning efficiency. The refined prompt guided `o3-mini` to achieve near-optimal performance, demonstrating the power of structured instructions in improving LLM reasoning!
 
 ## Appendix - Running the code
 
